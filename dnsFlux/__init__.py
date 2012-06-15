@@ -26,7 +26,7 @@
 
 #----------------------------------------------------------------------------
 from Foam import FOAM_VERSION
-if FOAM_VERSION( ">=", "010701" ):
+if FOAM_VERSION( "==", "010701" ):
     from dnsFlux.r1_7_1 import *
     pass
 
